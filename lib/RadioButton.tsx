@@ -82,7 +82,7 @@ export default function RadioButton({
           {selected && (
             <View
               style={{
-                backgroundColor: color,
+                backgroundColor: borderColor ||color,
                 width: sizeHalf,
                 height: sizeHalf,
                 borderRadius: sizeHalf,
